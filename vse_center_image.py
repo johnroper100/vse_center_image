@@ -54,7 +54,7 @@ def VCI_panel(self, context):
     seq = bpy.context.selected_editable_sequences[0]
 
     if seq.use_translation:
-        layout.operator("scene.vci_center_image", icon="FULLSCREEN_ENTER")
+        layout.operator("scene.vci_center_image", icon="FULLSCREEN_EXIT")
 
 
 def register():
